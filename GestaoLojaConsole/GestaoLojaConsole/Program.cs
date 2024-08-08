@@ -9,7 +9,7 @@ namespace GestaoLojaConsole
         static void Main(string[] args)
         {
 
-            // Configuração do DbContextOptions para SQLite
+            // Configuração do SQLite
             var optionsBuilder = new DbContextOptionsBuilder<AppDbContext>();
             optionsBuilder.UseSqlite("Data Source=Banco.db");
 

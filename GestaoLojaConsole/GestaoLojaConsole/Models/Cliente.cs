@@ -24,13 +24,13 @@ public class Cliente
     [Range(1, 99999999)]
     public int Cep { get; set; }
     [StringLength(40)]
-    public string Cidade { get; set; }
+    public string? Cidade { get; set; }
     [StringLength(40)]
-    public string Bairro { get; set; }
+    public string? Bairro { get; set; }
     [StringLength(80)]
-    public string Rua { get; set; }
+    public string? Rua { get; set; }
     [StringLength(80)]
-    public string NumeroResidencia { get; set; }
+    public string? NumeroResidencia { get; set; }
     //public Pedido Pedidos  { get; set; }
     public bool EstaDevendo { get; set; }
     [Range(0.00, 99999.99)]
